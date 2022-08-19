@@ -18,3 +18,11 @@ config:
 ```
 
 ## Example Commands
+
+```bash
+# audit specific views
+python3 audit.py -v orders,users,order_items -o salePrice -n sale_price
+
+# audit all views
+python3 audit.py -o salePrice -n sales_price
+```
